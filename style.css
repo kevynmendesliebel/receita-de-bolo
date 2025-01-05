@@ -16,7 +16,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor-01);
+    background-color: var(--cor-04);
 }
 
 header {
@@ -54,11 +54,10 @@ main {
 }
 
 main  h1 {
-    text-align: center;
-    color: white;
-    margin-left:-500px;
-    margin-bottom: 15px;
+    text-align: justify;
     color: black;
+    margin-bottom: 15px;
+    max-width: auto;
     padding-bottom: 15px;
 }
 
@@ -78,6 +77,8 @@ aside {
     padding-bottom: 1px;
     max-width: 470px;
     margin: auto;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px 0px rgba(0, 0, 0, 0.198);
 }
 
 aside  ul  {
@@ -86,21 +87,35 @@ aside  ul  {
     padding-bottom: 30px;
     margin-left:  6px;
     line-height: 30px;
+    color: white;
+}
+
+aside > h2 {
+    color: white;
 }
 
 .aside02 {
-    background-color: var(--cor-05);
-    padding-bottom: 1px;
-    max-width: 470px;
-    margin-top: 50px;
-    margin-left: 110px;
+   margin-top: 35px;
+   box-shadow: -3px -3px 7px 0px rgba(0, 0, 0, 0.198);
+   border-radius: 10px;
+   color: white;
 }
 
-.aside02 ul {
-    list-style-position: inside;
-    columns: 2;
-    padding-bottom: 30px;
-    margin-left:  6px;
-    line-height: 30px;
-    padding-top: 0px;
+.aside02 > h2 {
+    color: white;
+}
+
+section {
+    background-color: var(--cor-05);
+    margin: auto;
+    padding-bottom: 80px;
+    text-align: center;
+    max-width: 400px;
+}
+section h2 {
+    color: white;
+}
+
+section p {
+    color: white;
 }
